@@ -1,2 +1,2 @@
-# speedy-drag
+# Speedy Drag
 Kıraathane Game Jam için yapılmıştır
