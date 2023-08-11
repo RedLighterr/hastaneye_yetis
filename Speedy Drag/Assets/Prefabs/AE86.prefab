@@ -529,7 +529,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2419289309555230431}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.359, y: 1.065, z: -0.128}
+  m_LocalPosition: {x: 0.359, y: 1.1, z: -0.28}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -996,13 +996,13 @@ MonoBehaviour:
   tireFriction:
     model: 3
     settings:
-      adherentFriction: 0.95
-      peak: {x: 1.5, y: 1.1}
-      limit: {x: 6, y: 0.8}
-      a: 0.9
+      adherentFriction: 0.8
+      peak: {x: 2, y: 1.2}
+      limit: {x: 12, y: 0.95}
+      a: 0.6
       b: 0
       c: 0
-      d: 0
+      d: 0.1
       A: 0.95
       B: 0.8
       C: 1.5
@@ -1064,7 +1064,7 @@ MonoBehaviour:
     autoShiftNeutralRpm: 800
     autoShiftFirstGearRpm: 1000
     autoShiftDownRevs: 1900
-    autoShiftUpRevs: 3500
+    autoShiftUpRevs: 6300
     autoShiftThrottleSens: 0
     autoShiftThrottleSensMin: 0.6
     autoShiftFullThrottleDownRevs: 3000
@@ -1914,8 +1914,20 @@ PrefabInstance:
       value: -0.605
       objectReference: {fileID: 0}
     - target: {fileID: 114462316325742096, guid: 0ba239054da355345bc3be88be60af08, type: 3}
-      propertyPath: engine.audioBaseRpm
+      propertyPath: engine.idleRpm
       value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 114462316325742096, guid: 0ba239054da355345bc3be88be60af08, type: 3}
+      propertyPath: engine.audioBaseRpm
+      value: 3500
+      objectReference: {fileID: 0}
+    - target: {fileID: 114462316325742096, guid: 0ba239054da355345bc3be88be60af08, type: 3}
+      propertyPath: engineExtras.turboMaxPitch
+      value: 1.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 114462316325742096, guid: 0ba239054da355345bc3be88be60af08, type: 3}
+      propertyPath: engineExtras.turboMaxVolume
+      value: 0.578
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ba239054da355345bc3be88be60af08, type: 3}
