@@ -138,14 +138,14 @@ MonoBehaviour:
   m_Script: {fileID: 1403093141, guid: b8873f7cd5fec6f49a4b37228b9b23ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mode: 1
+  mode: 0
   target: {fileID: 0}
-  changeCameraKey: 99
+  changeCameraKey: 0
   customCameraIndex: 0
   timeMode: 1
   driverCameraFov: 70
   driver:
-    hotKey: 282
+    hotKey: 0
     attachTarget: {fileID: 0}
     enableRotation: 0
     resetRotationOnEnable: 0
@@ -175,7 +175,7 @@ MonoBehaviour:
     horizontalSensitivity: 4
     verticalSensitivity: 4
   smoothFollow:
-    hotKey: 283
+    hotKey: 0
     distance: 10
     height: 3.5
     heightMultiplier: 1
@@ -184,7 +184,7 @@ MonoBehaviour:
     followVelocity: 1
     velocityDamping: 5
   orbit:
-    hotKey: 284
+    hotKey: 0
     distance: 14
     minVerticalAngle: 1.8
     maxVerticalAngle: 70
@@ -201,7 +201,7 @@ MonoBehaviour:
     verticalAxis: Mouse Y
     distanceAxis: Mouse ScrollWheel
   lookAt:
-    hotKey: 285
+    hotKey: 0
     damping: 8
     adjustFov: 1
     minFov: 1
