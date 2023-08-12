@@ -260,8 +260,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 116425860}
-  m_LocalRotation: {x: -0.02955004, y: -0.92299163, z: 0.07243622, w: -0.37678406}
-  m_LocalPosition: {x: -3.7013044, y: 1.7851156, z: 3.9653673}
+  m_LocalRotation: {x: 0.026448913, y: 0.95068955, z: -0.08465568, w: 0.29719242}
+  m_LocalPosition: {x: -2.1865423, y: 1.3122171, z: 3.9999661}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1157,7 +1157,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "CRED\u0130TS"
+  m_text: "B\u0130LG\u0130"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3737,7 +3737,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Credits
+  m_text: "Yap\u0131mc\u0131"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 77be9d48af4abbd4a89ea1c11e6ceee4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 77be9d48af4abbd4a89ea1c11e6ceee4, type: 2}
