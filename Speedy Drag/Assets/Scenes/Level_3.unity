@@ -784,7 +784,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6222824533402313649, guid: 5b69e0992eb09d34a958b02291959b89, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6222824533402313649, guid: 5b69e0992eb09d34a958b02291959b89, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -792,7 +792,7 @@ PrefabInstance:
       objectReference: {fileID: 1951177571}
     - target: {fileID: 6222824533402313649, guid: 5b69e0992eb09d34a958b02291959b89, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: NextButton
+      value: ExitButton
       objectReference: {fileID: 0}
     - target: {fileID: 6222824533402313649, guid: 5b69e0992eb09d34a958b02291959b89, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -6914,7 +6914,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 0.6509804, g: 0, b: 0.22352941, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
